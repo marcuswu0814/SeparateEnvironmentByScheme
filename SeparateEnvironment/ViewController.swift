@@ -8,6 +8,18 @@
 
 import UIKit
 
+struct Config {
+    
+    #if DEBUG
+    static let isProduction = false
+    #else
+    static let isProduction = true
+    #endif
+    
+    static let apiURL = isProduction ? "www.production.server.com" : "www.test.server.com"
+    
+}
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
