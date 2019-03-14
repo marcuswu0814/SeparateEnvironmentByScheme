@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		097D34792190673D0066AFE8 /* SeparateEnvironment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeparateEnvironment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		097D34792190673D0066AFE8 /* Beta SeparateEnvironment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beta SeparateEnvironment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		097D347C2190673D0066AFE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		097D347E2190673D0066AFE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		097D34812190673E0066AFE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		097D347A2190673D0066AFE8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				097D34792190673D0066AFE8 /* SeparateEnvironment.app */,
+				097D34792190673D0066AFE8 /* Beta SeparateEnvironment.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,7 +111,7 @@
 			);
 			name = SeparateEnvironment;
 			productName = SeparateEnvironment;
-			productReference = 097D34792190673D0066AFE8 /* SeparateEnvironment.app */;
+			productReference = 097D34792190673D0066AFE8 /* Beta SeparateEnvironment.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -515,7 +515,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CE82B800CB0777D61D1B20A1 /* Pods-SeparateEnvironment.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconBeta;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CDL4Q49RXS;
 				INFOPLIST_FILE = SeparateEnvironment/Info.plist;
@@ -523,8 +523,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcus.SeparateEnvironment;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcus.SeparateEnvironment.beta;
+				PRODUCT_NAME = "Beta $(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG DEV_ENV";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -535,7 +535,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 71ECFF49DDFDDDDF7072504D /* Pods-SeparateEnvironment.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconBeta;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CDL4Q49RXS;
 				INFOPLIST_FILE = SeparateEnvironment/Info.plist;
@@ -543,8 +543,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcus.SeparateEnvironment;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcus.SeparateEnvironment.beta;
+				PRODUCT_NAME = "Beta $(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEV_ENV;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
